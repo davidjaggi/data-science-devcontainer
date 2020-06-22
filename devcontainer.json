@@ -1,0 +1,19 @@
+{
+    "name": "David R&D",
+    "dockerComposeFile": "docker-compose.yaml",
+    "service": "jupyter",
+    "workspaceFolder": "/home/jovyan/work",
+    "remoteUser": "jovyan",
+    // "runServices": [],
+    "extensions": [
+        "coenraads.bracket-pair-colorizer-2",
+        "ms-python.python",
+        "eamodio.gitlens",
+        "visualstudioexptteam.vscodeintellicode",
+        "ms-azuretools.vscode-docker",
+        "magicstack.magicpython"
+	],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+}
